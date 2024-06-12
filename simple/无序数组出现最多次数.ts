@@ -19,3 +19,6 @@ function findMostFrequent(arr: number[]): number {
   }
   return maxNum;
 }
+
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 1, 1, 1, 1];
+console.log(findMostFrequent(arr1)); // 1
